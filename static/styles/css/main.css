@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  width: 640px;
+}
+
+.gamelist a {
+  height: 64px;
+}
+.gamelist__item {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 64px;
+  border: 1px solid #eee;
+}
+.gamelist__item__img {
+  width: 64px;
+  height: 64px;
+}
+.gamelist__item__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 64px);
+  line-height: 64px;
+}
+.gamelist__item__description p {
+  margin: 0;
+}
+.gamelist__item__description__github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gamelist__item__description__github .icon-tabler {
+  width: 32px;
+  height: 32px;
+}

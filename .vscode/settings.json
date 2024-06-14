@@ -1,0 +1,11 @@
+{
+	"deno.enable": true,
+	"deno.lint": true,
+	"editor.defaultFormatter": "vscode.typescript-language-features",
+	"[javascript]": {
+		"editor.maxTokenizationLineLength": 250000
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	}
+}

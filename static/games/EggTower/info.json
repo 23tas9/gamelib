@@ -1,0 +1,14 @@
+{
+	"name": "たまごタワー",
+	"id": "EggTower",
+	"favicon": "/games/EggTower/images/favicon/icon-512x512.png",
+	"github": "https://github.com/tas9n/EggTower",
+	"keywords": [
+		"Siv3D",
+		"OpenSiv3D",
+		"たまごタワー",
+		"絵文字タワー",
+		"卵",
+		"たまご"
+	]
+}
